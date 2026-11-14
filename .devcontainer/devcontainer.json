@@ -1,0 +1,9 @@
+{
+  "name": "Lab TLS - Introducao a Criptografia",
+  "build": { "dockerfile": "Dockerfile" },
+  "capAdd": ["NET_RAW", "NET_ADMIN"],
+  "postCreateCommand": "openssl version",
+  "customizations": {
+    "codespaces": { "openFiles": ["README.md"] }
+  }
+}
